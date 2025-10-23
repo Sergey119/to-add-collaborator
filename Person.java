@@ -16,9 +16,4 @@ public abstract class Person {
         Person person = (Person) o;
         return id == person.id;
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hashCode(id);
-    }
 }
