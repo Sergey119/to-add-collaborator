@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public abstract class Person {
+	
     protected int id;
     protected String name;
 
@@ -16,4 +17,5 @@ public abstract class Person {
         Person person = (Person) o;
         return id == person.id;
     }
+	
 }
